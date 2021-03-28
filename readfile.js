@@ -6,5 +6,7 @@ function loadFile(filePath) {
   if (xmlhttp.status==200) {
     result = xmlhttp.responseText;
   }
-  alert(result);
+	
+	
+  alert(typeof(result));
 }
