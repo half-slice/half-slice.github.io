@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+		<script src="level.js"></script>
+		<script src="random.js"></script>
+		<script type="text/javascript" src="EngWord.js"></script>
+
+	</head>
+	<body>
+		<script>
+			let chosenLevel = 0;
+		</script>
+		
+		<div class="title">
+			HangMan Game
+		</div>
+		
+		<input type=button id='easy' value="easy" onclick="chosenLevel= 1">
+		<input type=button id='normal' value="normal" onclick="chosenLevel= 2">
+		<input type=button id='hard' value="hard" onclick="chosenLevel= 3">
+		
+		<input type=button id='start' value="start" onclick=setLevel(chosenLevel);>
+		
+		
+
+		
+		
+	</body>
+</html>
