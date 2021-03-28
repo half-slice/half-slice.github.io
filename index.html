@@ -6,6 +6,7 @@
 		<script src="level.js"></script>
 		<script src="random.js"></script>
 		<script type="text/javascript" src="EngWord.js"></script>
+		<script src="readfile.js"></script>
 
 	</head>
 	<body>
@@ -21,8 +22,8 @@
 		<input type=button id='normal' value="normal" onclick="chosenLevel= 2">
 		<input type=button id='hard' value="hard" onclick="chosenLevel= 3">
 		
-		<input type=button id='start' value="start" onclick=setLevel(chosenLevel);>
-		
+		<input type=button id='start' value="start" onclick="loadFile(`./EngWord.txt`)";>
+		 
 		
 
 		
